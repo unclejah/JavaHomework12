@@ -1,4 +1,4 @@
-public class Bicycle implements UpdateTyreInterface,CheckEngineInterface {
+public class Bicycle extends Vehicle {
     private String modelName;
     private int wheelsCount;
 
